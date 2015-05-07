@@ -1,4 +1,4 @@
-﻿namespace TestMove.ObjectModel
+﻿namespace MyLib.ObjectModel
 {
     public class Class001
     {

@@ -1,4 +1,4 @@
-﻿namespace TestMove.ObjectModel.Folder02
+﻿namespace MyLib.ObjectModel.Folder02
 {
     public class Class003
     {
