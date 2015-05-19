@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class004.cs" />
     <Compile Include="ObjectModel\Class001.cs" />
     <Compile Include="ObjectModel\Folder01\Class002.cs" />
     <Compile Include="ObjectModel\Folder02\Class003.cs" />

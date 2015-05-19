@@ -5,6 +5,7 @@ using System.Text;
 
 namespace TestMove
 {
+    using MyLib;
     using MyLib.ObjectModel;
     using MyLib.ObjectModel.Folder01;
     using MyLib.ObjectModel.Folder02;
