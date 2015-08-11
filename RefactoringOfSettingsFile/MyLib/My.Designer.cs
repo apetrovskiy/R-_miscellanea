@@ -40,10 +40,10 @@ namespace MyLib {
         [global::System.Configuration.DefaultSettingValueAttribute("02")]
         public string Setting02 {
             get {
-                return ((string)(this["Setting02"]));
+                return ((string)(this["Setting02NewNewNew"]));
             }
             set {
-                this["Setting02"] = value;
+                this["Setting02NewNewNew"] = value;
             }
         }
         
@@ -52,10 +52,10 @@ namespace MyLib {
         [global::System.Configuration.DefaultSettingValueAttribute("03")]
         public string Setting03 {
             get {
-                return ((string)(this["Setting03"]));
+                return ((string)(this["MySetting03New"]));
             }
             set {
-                this["Setting03"] = value;
+                this["MySetting03New"] = value;
             }
         }
     }

@@ -5,10 +5,10 @@
     <Setting Name="Setting01" Type="System.String" Scope="User">
       <Value Profile="(Default)">01</Value>
     </Setting>
-    <Setting Name="Setting02" Type="System.String" Scope="User">
+    <Setting Name="Setting02NewNewNew" Type="System.String" Scope="User">
       <Value Profile="(Default)">02</Value>
     </Setting>
-    <Setting Name="Setting03" Type="System.String" Scope="User">
+    <Setting Name="MySetting03New" Type="System.String" Scope="User">
       <Value Profile="(Default)">03</Value>
     </Setting>
   </Settings>
