@@ -2,6 +2,9 @@
 {
     public class InitialClass
     {
+        private readonly NewClass _newClass = new NewClass();
+        private readonly NewClass _newClass = new NewClass();
+
         public void SomeMethod01ToStayHere(string param1)
         {
             
@@ -12,32 +15,12 @@
             
         }
 
-        public void SomeMethod03ToBeExtracted(long param1)
-        {
-            
-        }
-
-        public void SomeMethod04ToBeExtracted(string[] param1)
-        {
-            
-        }
-
         public void SomeMethod05ToStayHere(string param1)
         {
 
         }
 
         public void SomeMethod06ToStayHere(int param1)
-        {
-
-        }
-
-        public void SomeMethod07ToBeExtracted(long param1)
-        {
-
-        }
-
-        public void SomeMethod08ToBeExtracted(string[] param1)
         {
 
         }
