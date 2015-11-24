@@ -7,7 +7,7 @@
     <ProjectGuid>{2A414919-21C1-48BD-BBB4-512273268D51}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lib02</RootNamespace>
+    <RootNamespace>FailedToAddReferencesFromOutsideTheSubfolder.Lib02</RootNamespace>
     <AssemblyName>Lib02</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

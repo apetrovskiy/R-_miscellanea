@@ -7,7 +7,7 @@
     <ProjectGuid>{98D39B19-31C9-4E9B-898B-D485A683E449}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lib03</RootNamespace>
+    <RootNamespace>FailedToAddReferencesFromOutsideTheSubfolder.Lib03</RootNamespace>
     <AssemblyName>Lib03</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

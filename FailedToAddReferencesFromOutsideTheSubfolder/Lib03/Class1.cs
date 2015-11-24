@@ -1,4 +1,4 @@
-﻿namespace Lib03
+﻿namespace FailedToAddReferencesFromOutsideTheSubfolder.Lib03
 {
     using System;
     using System.Collections.Generic;

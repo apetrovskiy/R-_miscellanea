@@ -1,4 +1,4 @@
-﻿namespace Lib01
+﻿namespace FailedToAddReferencesFromOutsideTheSubfolder.Lib01
 {
     public interface MyInterface
     {

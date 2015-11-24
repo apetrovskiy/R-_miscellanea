@@ -1,4 +1,4 @@
-﻿namespace Lib02
+﻿namespace FailedToAddReferencesFromOutsideTheSubfolder.Lib02
 {
     using Lib01;
     public class MyClass : MyInterface

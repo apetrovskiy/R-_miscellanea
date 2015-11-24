@@ -7,7 +7,7 @@
     <ProjectGuid>{0F26FC14-2406-4FD5-8FC8-91CED8C00EAA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestLibs</RootNamespace>
+    <RootNamespace>FailedToAddReferencesFromOutsideTheSubfolder.TestLibs</RootNamespace>
     <AssemblyName>TestLibs</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
