@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib03", "Lib03\Lib03.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Subfolder", "Subfolder", "{BAD8404D-1AB7-49F6-AF76-785CF3940420}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLibs", "Subfolder\TestLibs\TestLibs.csproj", "{0F26FC14-2406-4FD5-8FC8-91CED8C00EAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib03.TestLibs", "Subfolder\TestLibs\Lib03.TestLibs.csproj", "{0F26FC14-2406-4FD5-8FC8-91CED8C00EAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
