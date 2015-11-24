@@ -1,4 +1,4 @@
-﻿namespace TestLibs
+﻿namespace FailedToAddReferencesFromOutsideTheSubfolder.TestLibs
 {
     using System;
     using System.Collections.Generic;
