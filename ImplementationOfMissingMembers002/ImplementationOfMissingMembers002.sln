@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementationOfMissingMemb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementationOfMissingMembers001", "ImplementationOfMissingMembers001\ImplementationOfMissingMembers001.csproj", "{D760170A-7C17-4C58-8F58-B042C6E9C468}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Folder", "Folder", "{ECFDEEF7-83AD-4A64-AAD9-F957E85B647F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD3B8488-8679-4330-AA7E-168018323E66} = {ECFDEEF7-83AD-4A64-AAD9-F957E85B647F}
 	EndGlobalSection
 EndGlobal

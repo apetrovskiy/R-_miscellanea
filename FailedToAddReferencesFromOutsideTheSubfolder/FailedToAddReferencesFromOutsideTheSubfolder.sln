@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib01", "Lib01\Lib01.csproj", "{6B5EF8E6-8233-4548-BF80-2DCC63D83CF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FailedToAddReferencesFromOutsideTheSubfolder.Lib01", "FailedToAddReferencesFromOutsideTheSubfolder.Lib01\FailedToAddReferencesFromOutsideTheSubfolder.Lib01.csproj", "{6B5EF8E6-8233-4548-BF80-2DCC63D83CF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib02", "Lib02\Lib02.csproj", "{2A414919-21C1-48BD-BBB4-512273268D51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FailedToAddReferencesFromOutsideTheSubfolder.Lib02", "FailedToAddReferencesFromOutsideTheSubfolder.Lib02\FailedToAddReferencesFromOutsideTheSubfolder.Lib02.csproj", "{2A414919-21C1-48BD-BBB4-512273268D51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib03", "Lib03\Lib03.csproj", "{98D39B19-31C9-4E9B-898B-D485A683E449}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FailedToAddReferencesFromOutsideTheSubfolder.Lib03", "FailedToAddReferencesFromOutsideTheSubfolder.Lib03\FailedToAddReferencesFromOutsideTheSubfolder.Lib03.csproj", "{98D39B19-31C9-4E9B-898B-D485A683E449}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Subfolder", "Subfolder", "{BAD8404D-1AB7-49F6-AF76-785CF3940420}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib03.TestLibs", "Subfolder\TestLibs\Lib03.TestLibs.csproj", "{0F26FC14-2406-4FD5-8FC8-91CED8C00EAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FailedToAddReferencesFromOutsideTheSubfolder.Lib04", "FailedToAddReferencesFromOutsideTheSubfolder.Lib04\FailedToAddReferencesFromOutsideTheSubfolder.Lib04.csproj", "{F3F4A8EB-785B-4E90-85A4-378C3C1B6F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FailedToAddReferencesFromOutsideTheSubfolder.Lib03.TestLibs", "Subfolder\FailedToAddReferencesFromOutsideTheSubfolder.TestLibs\FailedToAddReferencesFromOutsideTheSubfolder.Lib03.TestLibs.csproj", "{0F26FC14-2406-4FD5-8FC8-91CED8C00EAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{98D39B19-31C9-4E9B-898B-D485A683E449}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98D39B19-31C9-4E9B-898B-D485A683E449}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98D39B19-31C9-4E9B-898B-D485A683E449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F4A8EB-785B-4E90-85A4-378C3C1B6F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F4A8EB-785B-4E90-85A4-378C3C1B6F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F4A8EB-785B-4E90-85A4-378C3C1B6F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F4A8EB-785B-4E90-85A4-378C3C1B6F66}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0F26FC14-2406-4FD5-8FC8-91CED8C00EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0F26FC14-2406-4FD5-8FC8-91CED8C00EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F26FC14-2406-4FD5-8FC8-91CED8C00EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU

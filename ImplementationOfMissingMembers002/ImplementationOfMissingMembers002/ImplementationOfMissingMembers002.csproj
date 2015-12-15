@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ImplementationOfMissingMembers002</RootNamespace>
     <AssemblyName>ImplementationOfMissingMembers002</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ImplementationOfMissingMembers001\ImplementationOfMissingMembers001.csproj">
-      <Project>{d760170a-7c17-4c58-8f58-b042c6e9c468}</Project>
+      <Project>{D760170A-7C17-4C58-8F58-B042C6E9C468}</Project>
       <Name>ImplementationOfMissingMembers001</Name>
     </ProjectReference>
   </ItemGroup>
