@@ -11,7 +11,7 @@
         {
             var loader = new Loader();
             IEnumerable<Loader> loaders = new List<Loader>();
-            var flag = new Random().Next(0, 2);
+            var flag = new Random().Next(1, 4);
 
             if (!loaders.Any())
                 loaders = FirstWay(flag);
@@ -22,6 +22,7 @@
             if (!loaders.Any())
                 loaders = ThirdWay(flag);
 
+            Console.WriteLine(flag);
             loaders.ToList().ForEach(ldr => Console.WriteLine(ldr.StringProperty));
             Console.ReadKey();
         }
@@ -33,12 +34,12 @@
 
         static IEnumerable<Loader> SecondWay(int flag)
         {
-            return 0 == flag ? new List<Loader>(new Loader[] {new Loader {StringProperty = "ccc"}}) : new List<Loader>();
+            return 2 == flag ? new List<Loader>(new Loader[] {new Loader {StringProperty = "ccc"}}) : new List<Loader>();
         }
 
         static IEnumerable<Loader> ThirdWay(int flag)
         {
-            return 2 == flag
+            return 3 == flag
                 ? new List<Loader>
                 {
                     new Loader {StringProperty = "ddd"},
