@@ -123,4 +123,7 @@
   <data name="Key002" xml:space="preserve">
     <value>Value002</value>
   </data>
+  <data name="Key003" xml:space="preserve">
+    <value>Value003</value>
+  </data>
 </root>

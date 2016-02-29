@@ -77,5 +77,14 @@ namespace First.Library {
                 return ResourceManager.GetString("Key002", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Value003.
+        /// </summary>
+        public static string Key003 {
+            get {
+                return ResourceManager.GetString("Key003", resourceCulture);
+            }
+        }
     }
 }

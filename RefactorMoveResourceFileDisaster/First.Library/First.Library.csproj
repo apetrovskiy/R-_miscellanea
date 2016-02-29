@@ -41,9 +41,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SomeClass001.cs" />
     <Compile Include="SomeResources.Designer.cs">
+      <DependentUpon>SomeResources.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SomeResources.resx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -51,6 +51,12 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>SomeResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Third.One\Third.One.csproj">
+      <Project>{357bf27b-6776-4d09-8f4a-df9c710c4eb8}</Project>
+      <Name>Third.One</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
