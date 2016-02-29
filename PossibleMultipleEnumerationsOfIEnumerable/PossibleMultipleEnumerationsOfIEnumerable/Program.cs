@@ -18,11 +18,12 @@
             if (!loaders.Any())
                 loaders = SecondWay(flag);
 
-            if (!loaders.Any())
+            var enumerable = loaders as Loader[] ?? loaders.ToArray();
+            if (!enumerable.Any())
                 loaders = ThirdWay(flag);
 
             Console.WriteLine(flag);
-            loaders.ToList().ForEach(ldr => Console.WriteLine(ldr.StringProperty));
+            enumerable.ToList().ForEach(ldr => Console.WriteLine(ldr.StringProperty));
             Console.ReadKey();
         }
 

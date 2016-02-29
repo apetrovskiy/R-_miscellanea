@@ -33,6 +33,21 @@
                     throw new ArgumentOutOfRangeException("myParam", myParam, null);
             }
         }
+
+        public SomeEnum SomeMethod03(string myParam)
+        {
+            switch (myParam.ToLower())
+            {
+                case "a":
+                    return SomeEnum.One;
+                case "b":
+                    return SomeEnum.Two;
+                case "c":
+                    return SomeEnum.Four;
+                default:
+                    throw new ArgumentOutOfRangeException("myParam", myParam, null);
+            }
+        }
     }
 
     public enum SomeEnum
